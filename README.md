@@ -107,19 +107,25 @@ Run the following commands in your terminal:
 # 1. Clone the repository
 git clone <repo-url>
 cd <repo-folder>
-
+```
+```bash
 # 2. (Optional but recommended) Create a virtual environment
 python -m venv .venv
-
+```
+```bash
 # 3. Activate the virtual environment
 # macOS / Linux
 source .venv/bin/activate
+```
+```bash
 # Windows (PowerShell)
 .\.venv\Scripts\Activate
-
+```
+```bash
 # 4. Install dependencies
 pip install -r requirements.txt
-
+```
+```bash
 # 5. Ensure the EV dataset is available
 ls Electric_Vehicle_Population_Data.csv
 ```
