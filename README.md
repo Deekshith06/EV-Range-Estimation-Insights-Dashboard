@@ -102,31 +102,30 @@ Accurate EV range estimates are essential for drivers, planners, and policymaker
 ## 📦 Installation & Setup
 
 Run the following commands in your terminal:
-
+1. Clone the repository
 ```bash
-# 1. Clone the repository
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/Deekshith06/EV-Range-Estimation-Insights-Dashboard.git
+cd EV-Range-Estimation-Insights-Dashboard
 ```
+2. (Optional but recommended) Create a virtual environment
 ```bash
-# 2. (Optional but recommended) Create a virtual environment
 python -m venv .venv
 ```
+3. Activate the virtual environment
+**macOS / Linux**
 ```bash
-# 3. Activate the virtual environment
-# macOS / Linux
 source .venv/bin/activate
 ```
+**Windows (PowerShell)**
 ```bash
-# Windows (PowerShell)
 .\.venv\Scripts\Activate
 ```
+4. Install dependencies
 ```bash
-# 4. Install dependencies
 pip install -r requirements.txt
 ```
+5. Ensure the EV dataset is available
 ```bash
-# 5. Ensure the EV dataset is available
 ls Electric_Vehicle_Population_Data.csv
 ```
 
