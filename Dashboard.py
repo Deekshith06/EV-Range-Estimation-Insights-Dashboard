@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from data_utils import load_ev_data
-from improved_ev_advisor import build_ev_advisor
+from improved_ev_advisor import create_improved_ev_advisor
 
 
 # Configure page settings
@@ -248,7 +248,7 @@ if ev_data is not None:
         )
     
     # EV Recommendation System
-    build_ev_advisor(filtered_data)
+    create_improved_ev_advisor(filtered_data)
     
     # Data visualizations
     st.markdown("---")
